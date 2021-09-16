@@ -9,10 +9,8 @@ package com.liambass.iterationexercises;
 
 public class Coins {
 
-	public static void main(String[] args) {
-		int totalpence = 458;
-		int paidpence = 2000;
-		change(totalpence, paidpence);
+	public static void main(int price, int paid) {
+		change(price, paid);
 
 	}
 

@@ -8,8 +8,7 @@ package com.liambass.iterationexercises;
 
 public class Numbers {
 
-	public static void main(String[] args) {
-		int num = 8542;
+	public static void main(int num) {
 		addDigits(num);
 		numToWords(num);
 		for (int i = 1; i <= 100; i++) {

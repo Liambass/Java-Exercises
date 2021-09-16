@@ -4,9 +4,7 @@ package com.liambass.iterationexercises;
 
 public class GreatestCommonDivisor {
 
-	public static void main(String[] args) {
-		int num1 = 7;
-		int num2 = 17;
+	public static void main(int num1, int num2) {
 		System.out.println(greatComDiv(num1, num2));
 
 	}

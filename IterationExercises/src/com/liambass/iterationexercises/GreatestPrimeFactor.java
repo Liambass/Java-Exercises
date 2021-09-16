@@ -4,8 +4,7 @@ package com.liambass.iterationexercises;
 
 public class GreatestPrimeFactor {
 
-	public static void main(String[] args) {
-		int num = 455;
+	public static void main(int num) {
 		System.out.println(grPriFact(num));  
 
 	}
