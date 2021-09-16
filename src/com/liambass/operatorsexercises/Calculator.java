@@ -10,30 +10,47 @@
 package com.liambass.operatorsexercises;
 
 public class Calculator {
+	
+	private int num1;
+	private int num2;
+	
+	public Calculator(int num1, int num2) {
+		super();
+		this.num1 = num1;
+		this.num2 = num2;
+	}
+	public Calculator() {
+		super();
+	}
+	
 
-	public static void main(String[] args) {
-		int num1 = 4;
-		int num2 = 12;
-		System.out.println(add(num1, num2));
-		System.out.println(sub(num1, num2));
-		System.out.println(mult(num1, num2));
-		System.out.println(div(num1, num2));
-
+	public int getNum1() {
+		return num1;
+	}
+	public void setNum1(int num1) {
+		this.num1 = num1;
+	}
+	public int getNum2() {
+		return num2;
+	}
+	public void setNum2(int num2) {
+		this.num2 = num2;
+	}
+	
+	
+	double div() {
+		return (double) num1 / (double) num2;
 	}
 
-	private static double div(double num1, double num2) {
-		return num1 / num2;
-	}
-
-	private static int mult(int num1, int num2) {
+	int mult() {
 		return num1 * num2;
 	}
 
-	private static int sub(int num1, int num2) {
+	int sub() {
 		return num1 - num2;
 	}
 
-	private static int add(int num1, int num2) {
+	int add() {
 		return num1 + num2;
 	}
 
