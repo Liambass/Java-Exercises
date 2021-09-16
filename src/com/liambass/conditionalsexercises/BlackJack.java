@@ -4,9 +4,7 @@ package com.liambass.conditionalsexercises;
 
 public class BlackJack {
 
-	public static void main(String[] args) {
-		int hand1 = 20;
-		int hand2 = 20;
+	public static void main(int hand1, int hand2) {
 		int winninghand = blackjack(hand1, hand2);
 
 	}

@@ -19,8 +19,7 @@ package com.liambass.conditionalsexercises;
 
 public class Taxes {
 
-	public static void main(String[] args) {
-		float salary = 25000;
+	public static void main(float salary) {
 		System.out.println("Your highest tax bracket is " + maxTaxBracket(salary) + "%");
 		float tax = tax(salary);
 		System.out.println("Your total tax liability is £" + (int) tax);

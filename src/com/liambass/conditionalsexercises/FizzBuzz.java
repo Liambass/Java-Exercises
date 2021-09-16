@@ -6,8 +6,7 @@ package com.liambass.conditionalsexercises;
 
 public class FizzBuzz {
 
-	public static void main(String[] args) {
-		int limit = 100;
+	public static void main(int limit) {
 		fizzBuzz(limit);
 
 	}

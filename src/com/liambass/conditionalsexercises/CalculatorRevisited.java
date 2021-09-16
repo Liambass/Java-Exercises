@@ -4,9 +4,7 @@ package com.liambass.conditionalsexercises;
 
 public class CalculatorRevisited {
 
-	public static void main(String[] args) {
-		double num1 = 4;
-		double num2 = 12;
+	public static void main(double num1, double num2) {
 		System.out.println(add(num1, num2));
 		System.out.println(sub(num1, num2));
 		System.out.println(mult(num1, num2));

@@ -4,11 +4,7 @@ package com.liambass.conditionalsexercises;
 
 public class UniqueSum {
 
-	public static void main(String[] args) {
-		int num1 = 2;
-		int num2 = 2;
-		int num3 = 5;
-		
+	public static void main(int num1, int num2, int num3) {
 		int usum = uniqueSum(num1, num2, num3);
 		System.out.println(usum);
 	}

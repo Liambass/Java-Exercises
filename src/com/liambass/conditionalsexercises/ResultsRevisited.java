@@ -15,10 +15,7 @@ package com.liambass.conditionalsexercises;
 
 public class ResultsRevisited {
 
-	public static void main(String[] args) {
-		int phy = 95;
-		int chem = 112;
-		int bio = 145;
+	public static void main(int phy, int chem, int bio) {
 		
 		total(phy, chem, bio);
 		percent(phy, chem, bio);

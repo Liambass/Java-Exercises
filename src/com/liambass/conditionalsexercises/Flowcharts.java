@@ -12,12 +12,8 @@ package com.liambass.conditionalsexercises;
 
 public class Flowcharts {
 
-	public static void main(String[] args) {
-		float num1 = 120;
-		float num2 = 42;
-		boolean bool = false;
+	public static void main(float num1, float num2, boolean bool) {
 		System.out.println(addormult(num1, num2, bool));
-
 		flowchart(num1);
 	}
 
