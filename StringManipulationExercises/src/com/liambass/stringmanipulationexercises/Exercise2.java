@@ -16,7 +16,7 @@ public class Exercise2 {
 		System.out.println(wordCount(str));
 		wordToLine(str);
 		wordToLineRev(str);
-		System.out.println(contains(str, test));   
+		System.out.println("test case contained in string? " + contains(str, test));   
 		
 
 	}
