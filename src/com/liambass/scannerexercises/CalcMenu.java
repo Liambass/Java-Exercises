@@ -36,6 +36,7 @@ public class CalcMenu {
 				break;
 			case "0":
 				menuFlag = false;
+				System.out.println("Goodbye.");
 				continue;
 			default:
 				System.out.println("Your input was invalid, please try again. ");
@@ -52,15 +53,19 @@ public class CalcMenu {
 
 			switch (option) {
 			case "1":
+				System.out.print(num1 + " + " + num2 + " = ");
 				System.out.println(Calculator.add(num1, num2));
 				break;
 			case "2":
+				System.out.print(num1 + " - " + num2 + " = ");
 				System.out.println(Calculator.sub(num1, num2));
 				break;
 			case "3":
+				System.out.print(num1 + " x " + num2 + " = ");
 				System.out.println(Calculator.mult(num1, num2));
 				break;
 			case "4":
+				System.out.print(num1 + " ÷ " + num2 + " = ");
 				System.out.println(Calculator.div(num1, num2));
 				break;
 			default:
