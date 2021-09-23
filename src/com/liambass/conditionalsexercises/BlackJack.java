@@ -1,5 +1,3 @@
-//Given 2 integer values greater than 0, return whichever is closest to 21 without going over 21. If they both go over 21 then return 0.
-
 package com.liambass.conditionalsexercises;
 
 public class BlackJack {

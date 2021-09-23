@@ -1,4 +1,3 @@
-
 package com.liambass.openclosedexercise;
 
 public class Greeter {

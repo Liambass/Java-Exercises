@@ -1,6 +1,3 @@
-//Consider the following class, which takes in a new MorseTranslator object and uses its translate() function on a String passed into it:
-//Write the MorseTranslator class, using a HashMap, to complete this exercise.
-
 package com.liambass.hashmapexercise;
 
 public class Runner {

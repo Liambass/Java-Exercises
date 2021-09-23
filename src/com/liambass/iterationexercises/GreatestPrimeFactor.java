@@ -1,5 +1,3 @@
-//Write a method that calculates the largest prime factor of a given number
-
 package com.liambass.iterationexercises;
 
 public class GreatestPrimeFactor {

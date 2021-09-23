@@ -1,4 +1,3 @@
-
 package com.liambass.exceptionsexercise;
 
 public class Calculator {

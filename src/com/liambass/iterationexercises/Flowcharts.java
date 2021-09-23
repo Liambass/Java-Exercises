@@ -1,5 +1,3 @@
-//Recreate the following flowcharts (000.png and 001.png)
-
 package com.liambass.iterationexercises;
 
 public class Flowcharts {

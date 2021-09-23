@@ -1,13 +1,3 @@
-//Create a method which accepts 3 parameters, 2 integers and a boolean.
-//
-//If the boolean is true, the method will return a sum of the two numbers, and it if is false it will return the multiplication of the two numbers.
-//For example:
-//
-//Input (1, 2, true) -> 3
-//Input (3, 3, false) -> 9
-//Input (1, 1, true) -> 2
-//Recreate the following flowchart (000.png) as a project. Ensure that your logic and outputs match that of the flowchart.
-
 package com.liambass.conditionalsexercises;
 
 public class Flowcharts {
