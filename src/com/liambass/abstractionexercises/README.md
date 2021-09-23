@@ -17,6 +17,11 @@
 - Friendly input, no edge cases :)
 
 
+--------------------------------------
+
+
+
+
 - Create an interface called Vehicle, with some methods relevant to all vehicles.
 
 - Create some classes which implement your Vehicle interface, such as Bicycle, Car, Van etc.
