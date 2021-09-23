@@ -1,4 +1,4 @@
-//- Write a class called Calculator, which implements the following interface:
+//- Write a class called Calculator, which implements the following interface: \n
 //
 //    interface MathsChallenge{
 //        int sumOfDivisors(int input);
